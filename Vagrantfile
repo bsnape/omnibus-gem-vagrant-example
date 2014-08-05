@@ -8,4 +8,10 @@ Vagrant.configure(VAGRANTFILE_API_VERSION) do |config|
     vb.customize ['modifyvm', :id, '--memory', '2048']
   end
 
+  config.vm.provision :puppet, :options => ['--debug', '--verbose', '--summarize', '--reports', 'store'] do |puppet|
+    puppet.manifests_path = 'manifests'
+    puppet.module_path    = 'modules'
+    puppet.manifest_file  = 'base.pp'
+  end
+
 end
