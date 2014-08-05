@@ -3,6 +3,8 @@ FORGE
   specs:
     dgutierrez1287-rpmbuild (0.1.0)
       puppetlabs-stdlib (>= 4.1.0)
+    maestrodev-rvm (1.6.2)
+      puppetlabs-stdlib (>= 3.2.0)
     ploperations-bundler (1.0.1)
       puppetlabs-ruby (>= 0.0.2)
     puppetlabs-ruby (0.2.1)
@@ -11,6 +13,7 @@ FORGE
 
 DEPENDENCIES
   dgutierrez1287-rpmbuild (>= 0)
+  maestrodev-rvm (>= 0)
   ploperations-bundler (>= 0)
   puppetlabs-ruby (>= 0)
 
