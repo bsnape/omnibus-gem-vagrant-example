@@ -1,0 +1,10 @@
+FORGE
+  remote: https://forgeapi.puppetlabs.com
+  specs:
+    dgutierrez1287-rpmbuild (0.1.0)
+      puppetlabs-stdlib (>= 4.1.0)
+    puppetlabs-stdlib (4.3.2)
+
+DEPENDENCIES
+  dgutierrez1287-rpmbuild (>= 0)
+
