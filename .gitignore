@@ -9,3 +9,6 @@ bin/*
 files/**/cache/
 vendor/cookbooks
 .idea/
+.librarian/
+.tmp/
+modules/
