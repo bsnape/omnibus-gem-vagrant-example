@@ -1,3 +1,9 @@
+GIT
+  remote: https://github.com/opscode/omnibus-software
+  revision: 606c6e8a6f0c87768e527f3e279df536e2fac719
+  specs:
+    omnibus-software (4.0.0)
+
 GEM
   remote: https://rubygems.org/
   specs:
@@ -156,4 +162,5 @@ DEPENDENCIES
   berkshelf (~> 3.0)
   kitchen-vagrant (~> 0.14)
   omnibus (~> 3.2)
+  omnibus-software!
   test-kitchen (~> 1.2)
