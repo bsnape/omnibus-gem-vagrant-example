@@ -5,7 +5,7 @@ dependency 'ruby'
 dependency 'rubygems'
 dependency 'bundler'
 
-source :git => 'git://github.com/bsnape/eir.git'
+source :git => 'https://github.com/bsnape/eir.git'
 
 relative_path 'eir'
 
