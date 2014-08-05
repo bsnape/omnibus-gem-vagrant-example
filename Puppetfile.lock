@@ -3,12 +3,14 @@ FORGE
   specs:
     dgutierrez1287-rpmbuild (0.1.0)
       puppetlabs-stdlib (>= 4.1.0)
-    example42-bundler (2.0.13)
-      example42-puppi (>= 2.0.0)
-    example42-puppi (2.1.9)
+    ploperations-bundler (1.0.1)
+      puppetlabs-ruby (>= 0.0.2)
+    puppetlabs-ruby (0.2.1)
+      puppetlabs-stdlib (< 5.0.0, >= 3.2.0)
     puppetlabs-stdlib (4.3.2)
 
 DEPENDENCIES
   dgutierrez1287-rpmbuild (>= 0)
-  example42-bundler (>= 0)
+  ploperations-bundler (>= 0)
+  puppetlabs-ruby (>= 0)
 
