@@ -1,9 +1,9 @@
 
-name 'test'
-maintainer 'CHANGE ME'
-homepage 'https://CHANGE-ME.com'
+name 'eir'
+maintainer 'Ben Snape'
+homepage 'http://bensnape.com'
 
-install_dir     '/opt/test'
+install_dir     '/opt/eir'
 build_version   Omnibus::BuildVersion.semver
 build_iteration 1
 
