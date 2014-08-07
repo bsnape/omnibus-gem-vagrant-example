@@ -2,7 +2,7 @@ name 'scout'
 maintainer 'Ben Snape'
 homepage 'https://scoutapp.com/'
 
-install_dir     '/opt/eir'
+install_dir     '/opt/scout'
 build_version   Omnibus::BuildVersion.semver
 build_iteration 1
 
