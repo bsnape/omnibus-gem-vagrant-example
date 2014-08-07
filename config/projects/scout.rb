@@ -1,11 +1,13 @@
-
-name 'eir'
+name 'scout'
 maintainer 'Ben Snape'
-homepage 'http://bensnape.com'
+homepage 'https://scoutapp.com/'
 
 install_dir     '/opt/eir'
 build_version   Omnibus::BuildVersion.semver
 build_iteration 1
+
+override :ruby, version: '2.1.2'
+override :rubygems, version: '2.2.1'
 
 # creates required build directories
 dependency 'preparation'
@@ -13,8 +15,7 @@ dependency 'preparation'
 # version manifest file
 dependency 'version-manifest'
 
-# test dependencies/components
-dependency 'eir'
+dependency 'scout'
 
 exclude '\.git*'
 exclude 'bundler\/git'
